@@ -26,5 +26,12 @@ namespace HRPayrollAngular6.Controllers
 
             return View();
         }
+
+        public ActionResult Service()
+        {
+            ViewBag.Message = "Your Service  page.";
+
+            return View();
+        }
     }
 }
