@@ -33,5 +33,18 @@ namespace HRPayrollAngular6.Controllers
 
             return View();
         }
+        public ActionResult Team()
+        {
+            ViewBag.Message = "Your Team  page.";
+
+            return View();
+        }
+
+        public ActionResult job()
+        {
+            ViewBag.Message = "Your job  page.";
+
+            return View();
+        }
     }
 }
